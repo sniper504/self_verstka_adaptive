@@ -1,0 +1,673 @@
+:root {
+    --light-green-color: #E1EDE6;
+    --font: "Raleway", sans-serif;
+    --font-size-twenty: 20px;
+    --black-color: #2C2D35;
+    --green-color: #598D66; 
+    --dark-green-color: #376B44;
+    --grey-color: #86928B;
+    --font-size-eighteen: 18px;
+    --font-weight-medium: 500;
+    --white-color: #F4F6F5;
+    --medium-green-color: #D4E8D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body, button {
+    font-family: var(--font);
+}
+
+.container {
+    margin: 0 auto;
+}
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1110px;
+    }
+    .header-container {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+    .page-header {
+        background-color: var(--light-green-color);
+        padding: 33px 0 32px 0;
+    }
+    .nav-link {
+        font-size: var(--font-size-twenty);
+    }
+    .hero-content {
+        width: 540px;
+    }
+    .hero-title {
+        font-size: 60px;
+    }
+    .hero-description {
+        margin: 20px 0 60px 0;
+    }
+    .cta-button {
+        padding: 21px 60px;
+    }
+    .gallery-title {
+        font-size: 40px;
+    }
+    .artwork-card {
+        width: 310px;
+    }
+    .collection-header h2 {
+        width: 420px;
+        font-size: 40px;
+    }
+    .collection-description p {
+        width: 540px;
+    }
+    .collection-button {
+        padding: 21px 60px;
+    }
+    .team-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .team-info {
+        margin-top: 45px;
+        width: 635px;
+    }
+    .team-info p {
+        margin: 20px 0;
+    }
+    .footer-layout {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-right-section {
+        display: flex;
+    }
+    .footer-columns {
+        margin-right: 253px;
+    }
+    .phone-number {
+        margin: 41px 0 8px 0;
+    }
+    .add-to-cart {
+        padding: 20px 100px;
+    }
+    .featured-collection {
+        background-image: url(assets/background_1440.svg);
+    }
+    .mobile-menu-button {
+        display: none;
+    }
+    .header-layout {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .gallery-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 70px auto 30px auto;
+    }
+    .filter-button + .filter-button {
+        margin: 0 32px;
+    }
+    .collection-description p {
+        font-size: var(--font-size-eighteen);
+        font-weight: var(--font-weight-medium);
+    }
+    .collection-button {
+        margin-top: 40px;
+        font-size: var(--font-size-twenty);
+    }
+    .featured-collection {
+        padding: 70px 0;
+    }
+    .team-section {
+        margin: 70px auto;
+    }
+    .team-members img:nth-child(2) {
+        margin: 0 30px;
+    }
+    .team-info p {
+        font-size: var(--font-size-eighteen);
+    }
+    .mobile-footer-row {
+        display: none;
+    }
+    .footer-column:nth-child(2) {
+        margin: 0 60px;
+    }  
+    .footer-column h3 {
+        color: var(--black-color);
+        font-size: var(--font-size-twenty);
+        font-weight: var(--font-weight-medium);
+        margin-bottom: 6px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+    .container {
+        max-width: 690px;
+    }
+    .header-container {
+        max-width: 690px;
+        margin: 0 auto;
+    }
+    .page-header {
+        background-color: var(--light-green-color);
+        padding: 33px 0 32px 0;
+    }
+    .nav-link {
+        font-size: var(--font-size-eighteen);
+    }
+    .hero-section img {
+        height: 330px;
+        width: 380px;
+    }
+    .hero-title {
+        font-size: 40px;
+    }
+    .hero-description {
+        margin: 20px 0 40px 0;
+    }
+    .cta-button {
+        padding: 18.5px 51.5px;
+    }
+    .hero-content {
+        width: 330px;
+    }
+    .gallery-title {
+        font-size: 30px;
+    }
+    .artwork-card {
+        width: 290px;
+    }
+    .artwork-image {
+        width: 290px;
+    }
+    .add-to-cart {
+        padding: 20px 90px;
+        width: fit-content;
+    }
+    .collection-header h2 {
+        width: 370px;
+        font-size: 30px;
+    }
+    .collection-button {
+        padding: 18.5px 36.5px;
+    }
+    .featured-collection {
+        background-image: url(assets/background_690.svg);
+    }
+    .collection-header img {
+        height: 60px;
+    }
+    .team-info {
+        margin-top: 40px;
+        width: 690px;
+    }
+    .gallery-title {
+        margin-bottom: 30px;
+    }
+    .team-info p {
+        margin-bottom: 30px;
+    }
+    .footer-contacts {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .phone-number {
+        margin: 0 0 8px 0;
+    }
+    .footer-right-section {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-bottom {
+        margin-right: 38px;
+    }
+    .mobile-menu-button {
+        display: none;
+    }
+    .header-layout {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .gallery-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 70px auto 30px auto;
+    }
+    .filter-button + .filter-button {
+        margin: 0 32px;
+    }
+    .collection-description p {
+        font-size: var(--font-size-eighteen);
+        font-weight: var(--font-weight-medium);
+    }
+    .collection-button {
+        margin-top: 40px;
+        font-size: var(--font-size-twenty);
+    }
+    .featured-collection {
+        padding: 70px 0;
+    }
+    .team-section {
+        margin: 70px auto;
+    }
+    .team-members img:nth-child(2) {
+        margin: 0 30px;
+    }
+    .team-info p {
+        font-size: var(--font-size-eighteen);
+    }
+    .mobile-footer-row {
+        display: none;
+    }
+    .footer-column:nth-child(2) {
+        margin: 0 60px;
+    }
+    .footer-column h3 {
+        color: var(--black-color);
+        font-size: var(--font-size-twenty);
+        font-weight: var(--font-weight-medium);
+        margin-bottom: 6px;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        max-width: 290px;
+    }
+    .header-container {
+        max-width: 320px;
+    }
+    .header-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-link {
+        display: none;
+    }
+    .mobile-menu-button {
+        background: none;
+        border: none;
+    }
+    .header-navigation {
+        background-color: var(--light-green-color);
+        justify-content: space-between;
+        padding: 19px 15px;
+    }
+    .hero-section img {
+        display: none;
+    }
+    header {
+        margin-bottom: 60px;
+    }
+    .hero-title {
+        font-size: 30px;
+    }
+    .hero-description {
+        font-size: 14px;
+        margin: 20px 0 40px 0;
+    }
+    .cta-button {
+        padding: 14.5px 29px;
+    }
+    .gallery-header {
+        margin-bottom: 20px;
+    }
+    .gallery-title {
+        margin: 60px 0 20px 0;
+    }
+    .section-title.mobile-title {
+        margin: 30px 0 20px 0;
+    }
+    .filter-button.mobile-hidden {
+        display: none;
+    }
+    .filter-button + .filter-button {
+        margin: 0 0 0 20px;
+    }
+    .artwork-image {
+        width: 250px;
+    }
+    .add-to-cart {
+        padding: 10px 70px;
+        width: fit-content;
+    }
+    .featured-collection {
+        background-image: url(assets/background_320.svg);
+    }
+    .collection-header img {
+        height: 50px;
+    }
+    .collection-header h2 {
+        width: 370px;
+        font-size: 24px;
+    }
+    .collection-description p {
+        font-size: 16px;
+        font-weight: var(--font-weight-medium);
+    }
+    .collection-button {
+        margin-top: 10px;
+        font-size: var(--font-size-eighteen);
+        padding: 14.5px 83.5px;
+    }
+    .featured-collection {
+        padding: 30px 0;
+    }
+    .team-photo {
+        width: 290px;
+        height: 286px;
+    }
+    .team-section {
+        margin: 70px auto 94px auto;
+    }
+    .team-members img:nth-child(2) {
+        margin: 0 20px;
+    }
+    .team-members {
+        margin-top: 20px;
+    }
+    .team-info p {
+        font-size: 16px;
+    }
+
+    .footer-layout {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .footer-contacts {
+        align-items: center;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        display: none;
+    }
+
+    .mobile-footer-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: 16px;
+        gap: 12px;
+    }
+
+    .mobile-footer-row .phone-number {
+        font-size: 16px;
+        margin-bottom: 8px;
+        white-space: nowrap;
+        align-self: flex-start;
+    }
+
+    .contact-label {
+        font-size: 16px;
+    }
+
+    .mobile-footer-row .footer-column {
+        margin-bottom: 0;
+    }
+
+    .reproductions-column {
+        display: none;
+    }
+
+    .footer-column h3 {
+        font-size: 16px;
+        font-weight: var(--font-weight-medium);
+        margin-bottom: 8px;
+        color: #222;
+    }
+
+    .footer-column a {
+        display: block;
+        color: #8c9a9e;
+        font-size: 16px;
+        text-decoration: none;
+        margin-bottom: 4px;
+    }
+
+    .footer-columns {
+        width: 100%;
+        gap: 12px;
+        margin-bottom: 16px;
+        justify-content: space-between;
+    }
+    .mobile-column {
+        margin-right: 8px;
+    }
+
+    .footer-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .footer-bottom::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #C3D1C6;
+        margin-bottom: 16px;
+        margin-top: 8px;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 32px;
+        margin-bottom: 12px;
+    }
+
+    .social-links img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .copyright {
+        color: #8c9a9e;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+.nav-link {
+    color: var(--black-color);
+    text-decoration: none;
+    margin-right: 60px;
+    font-weight: var(--font-weight-medium);
+}
+.cart-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-title {
+    font-weight: var(--font-weight-medium);
+}
+.hero-title span {
+    color: var(--green-color);
+}
+.hero-description {
+    color: var(--grey-color);
+    font-size: var(--font-size-eighteen);
+}
+.cta-button {
+    font-family: var(--font);
+    font-size: var(--font-size-twenty);
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
+    background: none;
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+}
+.cta-button:hover {
+    background-color: var(--dark-green-color);
+    color: var(--white-color);
+}
+
+.gallery-title {
+    font-weight: var(--font-weight-medium);
+    color: var(--black-color);
+}
+.active-filter {
+    padding: 10px 20px;
+    color: var(--white-color);
+    font-size: var(--font-size-twenty);
+    font-weight: var(--font-weight-medium);
+    background-color: var(--dark-green-color);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.filter-button {
+    padding: 10px 20px;
+    color: var(--black-color);
+    font-size: var(--font-size-twenty);
+    font-weight: var(--font-weight-medium);
+    background-color: var(--medium-green-color);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.filter-button:hover {
+    background-color: var(--dark-green-color);
+    color: var(--white-color);
+}
+
+.artwork-card {
+    background-color: var(--light-green-color);
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 30px;
+}
+.artist-name {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-eighteen);
+    color: var(--grey-color);
+    width: fit-content;
+}
+.artwork-title {
+    font-weight: var(--font-weight-medium);
+    font-size: 30px;
+    color: var(--black-color);
+    width: fit-content;
+}
+.artwork-details {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-eighteen);
+    color: var(--black-color);
+    margin-top: 8px;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+.artwork-price {
+    font-weight: var(--font-weight-medium);
+    font-size: 24px;
+    color: var(--green-color);
+    width: fit-content;
+}
+.add-to-cart {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-twenty);
+    color: var(--green-color);
+    background: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.add-to-cart:hover {
+    background-color: var(--dark-green-color);
+    color: var(--white-color);
+    border: none;
+}
+.artworks-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.featured-collection {
+    color: var(--white-color);
+    background-repeat: repeat-x;
+}
+.collection-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.collection-header h2 {
+    font-weight: var(--font-weight-medium);
+    margin-left: 20px;
+}
+.collection-description p {
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+.collection-button {
+    background-color: #EEDB6D;
+    border: none;
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+}
+.collection-button:hover {
+    background-color: #e7c81c;
+    color: var(--white-color);
+}
+
+.team-info p {
+    font-weight: var(--font-weight-medium);
+    color: var(--black-color);
+    line-height: 150%;
+}
+
+footer {
+    background-color: var(--light-green-color);
+    padding: 23px 0;
+    font-size: var(--font-size-eighteen);
+    font-weight: var(--font-weight-medium);
+    color: var(--grey-color);
+}
+.phone-number {
+    font-size: var(--font-size-twenty);
+    color: var(--black-color);
+}
+.footer-columns {
+    display: flex;
+}
+.footer-column a {
+    text-decoration: none;
+    color: var(--grey-color);
+    display: block;
+    margin-bottom: 6px;
+}
+.social-icon {
+    margin: 0 23px;
+}
+.social-links {
+    margin-bottom: 10px;
+}
+.copyright p {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
