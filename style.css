@@ -29,491 +29,492 @@ body, button {
     .container {
         max-width: 1110px;
     }
-    .header-container {
+    .container-header{
         max-width: 1110px;
         margin: 0 auto;
     }
-    .page-header {
-        background-color: var(--light-green-color);
-        padding: 33px 0 32px 0;
+    .header {
+    background-color: var(--light-green-color);
+    padding: 33px 0 32px 0;
     }
-    .nav-link {
+    .header-link {
         font-size: var(--font-size-twenty);
     }
-    .hero-content {
+    .about-right {
         width: 540px;
     }
-    .hero-title {
+    .about-title {
         font-size: 60px;
     }
-    .hero-description {
+    .about-text{
         margin: 20px 0 60px 0;
     }
-    .cta-button {
+    .about-button {
         padding: 21px 60px;
     }
-    .gallery-title {
+    .works-up-title {
         font-size: 40px;
     }
-    .artwork-card {
+    .work-example {
         width: 310px;
     }
-    .collection-header h2 {
+    .new-collection-title h2{
         width: 420px;
         font-size: 40px;
     }
-    .collection-description p {
+    .new-collection-text p{
         width: 540px;
     }
-    .collection-button {
+    .new-collection-button{
         padding: 21px 60px;
     }
-    .team-section {
+    .team{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    .team-info {
+    .team-text{
         margin-top: 45px;
-        width: 635px;
+        width: 635px; ;
     }
-    .team-info p {
+    .team-text p{
         margin: 20px 0;
     }
-    .footer-layout {
+    .footer-flex{
         display: flex;
         justify-content: space-between;
     }
-    .footer-right-section {
+    .footer-right{
         display: flex;
     }
-    .footer-columns {
+    .footer-links{
         margin-right: 253px;
     }
-    .phone-number {
+    .contacts-phone{
         margin: 41px 0 8px 0;
     }
-    .add-to-cart {
+    .work-buy{
         padding: 20px 100px;
     }
-    .featured-collection {
+    .new-collection{
         background-image: url(assets/background_1440.svg);
     }
-    .mobile-menu-button {
+    .header-button-mobile{
         display: none;
     }
-    .header-layout {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     }
-    .gallery-header {
-        display: flex;
-        justify-content: space-between;
-        margin: 70px auto 30px auto;
+    .works-up {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto 30px auto;
     }
-    .filter-button + .filter-button {
-        margin: 0 32px;
+    .works-second-button {
+    margin: 0 32px;
     }
-    .collection-description p {
-        font-size: var(--font-size-eighteen);
-        font-weight: var(--font-weight-medium);
+    .new-collection-text p{
+    font-size: var(--font-size-eighteen);
+    font-weight: var(--font-weight-medium);
     }
-    .collection-button {
+    .new-collection-button{
         margin-top: 40px;
         font-size: var(--font-size-twenty);
     }
-    .featured-collection {
+     .new-collection{
         padding: 70px 0;
     }
-    .team-section {
-        margin: 70px auto;
+    .team{
+    margin: 70px auto;
     }
-    .team-members img:nth-child(2) {
-        margin: 0 30px;
+    .team-image img:nth-child(2){
+    margin: 0 30px;
     }
-    .team-info p {
+    .team-text p{
         font-size: var(--font-size-eighteen);
     }
-    .mobile-footer-row {
-        display: none;
+    .footer-row-mobile {
+    display: none;
     }
-    .footer-column:nth-child(2) {
-        margin: 0 60px;
+    .footer-link:nth-child(2){
+    margin: 0 60px;
     }  
-    .footer-column h3 {
-        color: var(--black-color);
-        font-size: var(--font-size-twenty);
-        font-weight: var(--font-weight-medium);
-        margin-bottom: 6px;
+    .footer-link h3{
+    color: var(--black-color);
+    font-size: var(--font-size-twenty);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 6px;
     }
 }
-@media (min-width: 768px) and (max-width: 1439px) {
+@media (min-width: 768px) and (max-width: 1439px){
     .container {
         max-width: 690px;
     }
-    .header-container {
+    .container-header{
         max-width: 690px;
         margin: 0 auto;
     }
-    .page-header {
-        background-color: var(--light-green-color);
-        padding: 33px 0 32px 0;
+    .header {
+    background-color: var(--light-green-color);
+    padding: 33px 0 32px 0;
     }
-    .nav-link {
+    .header-link {
         font-size: var(--font-size-eighteen);
     }
-    .hero-section img {
+    .about img{
         height: 330px;
         width: 380px;
     }
-    .hero-title {
+    .about-title {
         font-size: 40px;
     }
-    .hero-description {
+    .about-text{
         margin: 20px 0 40px 0;
     }
-    .cta-button {
+    .about-button {
         padding: 18.5px 51.5px;
     }
-    .hero-content {
+    .about-right {
         width: 330px;
     }
-    .gallery-title {
+    .works-up-title {
         font-size: 30px;
     }
-    .artwork-card {
+    .work-example {
         width: 290px;
     }
-    .artwork-image {
+    .work-img{
         width: 290px;
     }
-    .add-to-cart {
+    .work-buy{
         padding: 20px 90px;
         width: fit-content;
     }
-    .collection-header h2 {
+    .new-collection-title h2{
         width: 370px;
         font-size: 30px;
     }
-    .collection-button {
+    .new-collection-button{
         padding: 18.5px 36.5px;
     }
-    .featured-collection {
+    .new-collection{
         background-image: url(assets/background_690.svg);
     }
-    .collection-header img {
+    .new-collection-title img{
         height: 60px;
     }
-    .team-info {
+    .team-text{
         margin-top: 40px;
-        width: 690px;
+        width: 690px; ;
     }
-    .gallery-title {
+    .works-up-title {
         margin-bottom: 30px;
     }
-    .team-info p {
+    .team-text p{
         margin-bottom: 30px;
     }
-    .footer-contacts {
+    .contacts{
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
     }
-    .phone-number {
+    .contacts-phone{
         margin: 0 0 8px 0;
     }
-    .footer-right-section {
+    .footer-right{
         display: flex;
         justify-content: space-between;
     }
-    .footer-bottom {
+    .footer-social-info{
         margin-right: 38px;
     }
-    .mobile-menu-button {
+    .header-button-mobile{
         display: none;
     }
-    .header-layout {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+   .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     }
-    .gallery-header {
-        display: flex;
-        justify-content: space-between;
-        margin: 70px auto 30px auto;
+    .works-up {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto 30px auto;
     }
-    .filter-button + .filter-button {
-        margin: 0 32px;
+    .works-second-button {
+    margin: 0 32px;
     }
-    .collection-description p {
-        font-size: var(--font-size-eighteen);
-        font-weight: var(--font-weight-medium);
+    .new-collection-text p{
+    font-size: var(--font-size-eighteen);
+    font-weight: var(--font-weight-medium);
     }
-    .collection-button {
+    .new-collection-button{
         margin-top: 40px;
         font-size: var(--font-size-twenty);
     }
-    .featured-collection {
+     .new-collection{
         padding: 70px 0;
     }
-    .team-section {
-        margin: 70px auto;
+    .team{
+    margin: 70px auto;
     }
-    .team-members img:nth-child(2) {
-        margin: 0 30px;
+    .team-image img:nth-child(2){
+    margin: 0 30px;
     }
-    .team-info p {
+    .team-text p{
         font-size: var(--font-size-eighteen);
     }
-    .mobile-footer-row {
-        display: none;
+    .footer-row-mobile {
+    display: none;
     }
-    .footer-column:nth-child(2) {
-        margin: 0 60px;
+    .footer-link:nth-child(2){
+    margin: 0 60px;
     }
-    .footer-column h3 {
-        color: var(--black-color);
-        font-size: var(--font-size-twenty);
-        font-weight: var(--font-weight-medium);
-        margin-bottom: 6px;
+    .footer-link h3{
+    color: var(--black-color);
+    font-size: var(--font-size-twenty);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 6px;
     }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px){
     .container {
         max-width: 290px;
     }
-    .header-container {
+    .container-header{
         max-width: 320px;
     }
-    .header-logo {
+    .logo{
         display: flex;
         justify-content: center;
     }
-    .nav-link {
+    .header-link{
         display: none;
     }
-    .mobile-menu-button {
+    .header-button-mobile{
         background: none;
         border: none;
     }
-    .header-navigation {
+    .header-links{
         background-color: var(--light-green-color);
         justify-content: space-between;
         padding: 19px 15px;
     }
-    .hero-section img {
+    .about img{
         display: none;
     }
-    header {
+    header{
         margin-bottom: 60px;
     }
-    .hero-title {
+    .about-title {
         font-size: 30px;
     }
-    .hero-description {
+     .about-text{
         font-size: 14px;
         margin: 20px 0 40px 0;
     }
-    .cta-button {
+    .about-button {
         padding: 14.5px 29px;
     }
-    .gallery-header {
+    .works-up{
         margin-bottom: 20px;
     }
-    .gallery-title {
+    .works-up-title{
         margin: 60px 0 20px 0;
     }
-    .section-title.mobile-title {
+    .works-up-title-mobile{
         margin: 30px 0 20px 0;
     }
-    .filter-button.mobile-hidden {
+    .works-button-mobile-none{
         display: none;
     }
-    .filter-button + .filter-button {
+    .works-second-button{
         margin: 0 0 0 20px;
     }
-    .artwork-image {
+    .work-img{
         width: 250px;
     }
-    .add-to-cart {
+    .work-buy{
         padding: 10px 70px;
         width: fit-content;
     }
-    .featured-collection {
+    .new-collection{
         background-image: url(assets/background_320.svg);
     }
-    .collection-header img {
+    .new-collection-title img{
         height: 50px;
     }
-    .collection-header h2 {
+    .new-collection-title h2{
         width: 370px;
         font-size: 24px;
     }
-    .collection-description p {
-        font-size: 16px;
-        font-weight: var(--font-weight-medium);
+    .new-collection-text p{
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
     }
-    .collection-button {
+    .new-collection-button{
         margin-top: 10px;
         font-size: var(--font-size-eighteen);
         padding: 14.5px 83.5px;
     }
-    .featured-collection {
+    .new-collection{
         padding: 30px 0;
     }
-    .team-photo {
+    .team-picture{
         width: 290px;
         height: 286px;
     }
-    .team-section {
-        margin: 70px auto 94px auto;
+    .team{
+    margin: 70px auto 94px auto;
     }
-    .team-members img:nth-child(2) {
-        margin: 0 20px;
+    .team-image img:nth-child(2){
+    margin: 0 20px;
     }
-    .team-members {
+    .team-image{
         margin-top: 20px;
     }
-    .team-info p {
+    .team-text p{
         font-size: 16px;
     }
+    
 
-    .footer-layout {
-        flex-direction: column;
-        align-items: stretch;
-    }
+    .footer-flex {
+    flex-direction: column;
+    align-items: stretch;
+  }
 
-    .footer-contacts {
-        align-items: center;
-        display: flex;
-        margin-bottom: 20px;
-    }
+  .contacts {
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
 
-    .contact-info {
-        display: none;
-    }
+  .contacts-info {
+    display: none;
+  }
 
-    .mobile-footer-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        width: 100%;
-        margin-bottom: 16px;
-        gap: 12px;
-    }
+  .footer-row-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 16px;
+    gap: 12px;
+  }
 
-    .mobile-footer-row .phone-number {
-        font-size: 16px;
-        margin-bottom: 8px;
-        white-space: nowrap;
-        align-self: flex-start;
-    }
+  .footer-row-mobile .contacts-phone {
+    font-size: 16px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    align-self: flex-start;
+  }
 
-    .contact-label {
-        font-size: 16px;
-    }
+  .contacts-lable{
+    font-size: 16px;
+  }
 
-    .mobile-footer-row .footer-column {
-        margin-bottom: 0;
-    }
+  .footer-row-mobile .footer-link {
+    margin-bottom: 0;
+  }
 
-    .reproductions-column {
-        display: none;
-    }
+  .footer-link-rep {
+    display: none;
+  }
 
-    .footer-column h3 {
-        font-size: 16px;
-        font-weight: var(--font-weight-medium);
-        margin-bottom: 8px;
-        color: #222;
-    }
+  .footer-link h3 {
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 8px;
+    color: #222;
+  }
 
-    .footer-column a {
-        display: block;
-        color: #8c9a9e;
-        font-size: 16px;
-        text-decoration: none;
-        margin-bottom: 4px;
-    }
+  .footer-link a {
+    display: block;
+    color: #8c9a9e;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 4px;
+  }
 
-    .footer-columns {
-        width: 100%;
-        gap: 12px;
-        margin-bottom: 16px;
-        justify-content: space-between;
-    }
-    .mobile-column {
-        margin-right: 8px;
-    }
+  .footer-links {
+    width: 100%;
+    gap: 12px;
+    margin-bottom: 16px;
+    justify-content: space-between;
+  }
+  .footer-link-mobile{
+    margin-right: 8px;
+  }
 
-    .footer-bottom {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 16px;
-    }
+  .footer-social-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+  }
 
-    .footer-bottom::before {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 1px;
-        background: #C3D1C6;
-        margin-bottom: 16px;
-        margin-top: 8px;
-    }
+  .footer-social-info::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #C3D1C6;
+    margin-bottom: 16px;
+    margin-top: 8px;
+  }
 
-    .social-links {
-        display: flex;
-        gap: 32px;
-        margin-bottom: 12px;
-    }
+  .footer-social {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 12px;
+  }
 
-    .social-links img {
-        width: 32px;
-        height: 32px;
-    }
+  .footer-social img {
+    width: 32px;
+    height: 32px;
+  }
 
-    .copyright {
-        color: #8c9a9e;
-        font-size: 16px;
-        text-align: center;
-    }
+  .footer-info {
+    color: #8c9a9e;
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
-.nav-link {
+.header-link {
     color: var(--black-color);
     text-decoration: none;
     margin-right: 60px;
     font-weight: var(--font-weight-medium);
 }
-.cart-button {
+.header-button {
     border: none;
     background: none;
     cursor: pointer;
 }
-.header-navigation {
+.header-links {
     display: flex;
     align-items: center;
 }
-.hero-section {
+.about {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.hero-title {
+.about-title {
     font-weight: var(--font-weight-medium);
 }
-.hero-title span {
+.about-title span {
     color: var(--green-color);
 }
-.hero-description {
+.about-text {
     color: var(--grey-color);
     font-size: var(--font-size-eighteen);
 }
-.cta-button {
+.about-button {
     font-family: var(--font);
     font-size: var(--font-size-twenty);
     color: var(--green-color);
@@ -522,16 +523,16 @@ body, button {
     font-weight: var(--font-weight-medium);
     cursor: pointer;
 }
-.cta-button:hover {
+.about-button:hover{
     background-color: var(--dark-green-color);
     color: var(--white-color);
 }
 
-.gallery-title {
+.works-up-title {
     font-weight: var(--font-weight-medium);
     color: var(--black-color);
 }
-.active-filter {
+.works-button-active {
     padding: 10px 20px;
     color: var(--white-color);
     font-size: var(--font-size-twenty);
@@ -541,7 +542,7 @@ body, button {
     border-radius: 20px;
     cursor: pointer;
 }
-.filter-button {
+.works-button {
     padding: 10px 20px;
     color: var(--black-color);
     font-size: var(--font-size-twenty);
@@ -551,29 +552,29 @@ body, button {
     border-radius: 20px;
     cursor: pointer;
 }
-.filter-button:hover {
+.works-button:hover{
     background-color: var(--dark-green-color);
-    color: var(--white-color);
+    color:  var(--white-color);
 }
 
-.artwork-card {
+.work-example {
     background-color: var(--light-green-color);
     padding: 20px 20px 30px 20px;
     margin-bottom: 30px;
 }
-.artist-name {
+.work-artist {
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-eighteen);
     color: var(--grey-color);
     width: fit-content;
 }
-.artwork-title {
+.work-name {
     font-weight: var(--font-weight-medium);
     font-size: 30px;
     color: var(--black-color);
     width: fit-content;
 }
-.artwork-details {
+.work-type {
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-eighteen);
     color: var(--black-color);
@@ -581,13 +582,13 @@ body, button {
     margin-bottom: 30px;
     width: fit-content;
 }
-.artwork-price {
+.work-price {
     font-weight: var(--font-weight-medium);
     font-size: 24px;
     color: var(--green-color);
     width: fit-content;
 }
-.add-to-cart {
+.work-buy {
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-twenty);
     color: var(--green-color);
@@ -595,51 +596,53 @@ body, button {
     margin-top: 20px;
     cursor: pointer;
 }
-.add-to-cart:hover {
+.work-buy:hover{
     background-color: var(--dark-green-color);
-    color: var(--white-color);
+    color:  var(--white-color);
     border: none;
 }
-.artworks-grid {
+.work-down{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 40px;
 }
 
-.featured-collection {
+.new-collection{
     color: var(--white-color);
-    background-repeat: repeat-x;
+    background-repeat: repeat-x ;
 }
-.collection-header {
+.new-collection-title{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
-.collection-header h2 {
+.new-collection-title h2{
     font-weight: var(--font-weight-medium);
     margin-left: 20px;
 }
-.collection-description p {
+.new-collection-text p{
     margin-bottom: 20px;
     line-height: 150%;
 }
-.collection-button {
+.new-collection-button{
     background-color: #EEDB6D;
     border: none;
     font-weight: var(--font-weight-medium);
     cursor: pointer;
 }
-.collection-button:hover {
+.new-collection-button:hover{
     background-color: #e7c81c;
     color: var(--white-color);
 }
 
-.team-info p {
+
+.team-text p{
     font-weight: var(--font-weight-medium);
     color: var(--black-color);
     line-height: 150%;
 }
+
 
 footer {
     background-color: var(--light-green-color);
@@ -648,26 +651,26 @@ footer {
     font-weight: var(--font-weight-medium);
     color: var(--grey-color);
 }
-.phone-number {
+.contacts-phone{
     font-size: var(--font-size-twenty);
     color: var(--black-color);
 }
-.footer-columns {
+.footer-links{
     display: flex;
 }
-.footer-column a {
+.footer-link a{
     text-decoration: none;
     color: var(--grey-color);
     display: block;
     margin-bottom: 6px;
 }
-.social-icon {
+.social-second{
     margin: 0 23px;
 }
-.social-links {
+.footer-social{
     margin-bottom: 10px;
 }
-.copyright p {
+.footer-info p{
     font-size: 12px;
     margin-bottom: 6px;
 }
